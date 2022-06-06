@@ -31,5 +31,13 @@ python3 public.py --conf-thres 0.05 --iou-thres 0.46 --img-size 1536 --weights .
 bash train.sh
 ```
 
+## Training result
+Here, we show that our training results.
+| labeled image | predicted image |
+|:--------------------:|:--------------------:|
+|<img src="https://github.com/come880412/STAS_detection/blob/main/images/val_batch0_labels.jpg" width=100% height=100%>|<img src="https://github.com/come880412/STAS_detection/blob/main/images/val_batch0_pred.jpg" width=100% height=100%>|
+|<img src="https://github.com/come880412/STAS_detection/blob/main/images/val_batch1_labels.jpg" width=100% height=100%>|<img src="https://github.com/come880412/STAS_detection/blob/main/images/val_batch1_pred.jpg" width=100% height=100%>|
+|<img src="https://github.com/come880412/STAS_detection/blob/main/images/val_batch2_labels.jpg" width=100% height=100%>|<img src="https://github.com/come880412/STAS_detection/blob/main/images/val_batch2_pred.jpg" width=100% height=100%>|
+
 # Reference
 [1] https://github.com/ultralytics/yolov5
