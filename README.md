@@ -1,1 +1,35 @@
 # STAS_detection
+Competition URL: https://tbrain.trendmicro.com.tw/Competitions/Details/21 (public 8th, private 19th)
+
+# Getting started
+- Clone this repo to your local
+``` bash
+git clone https://github.com/come880412/STAS_detection
+cd STAS_detection
+```
+
+## Download & preprocess dataset
+- You should prepare the dataset from [here](https://tbrain.trendmicro.com.tw/Competitions/Details/21), and put the dataset on the folder `../dataset`. After doing so, please use the following command to do data preprocessing.
+``` bash
+python3 preprocessing.py 
+```
+- Note: please modify the dataset path on the script `preprocessing.py`.
+
+## Download pretrained models
+- Please download the pretrained models from [here](https://drive.google.com/drive/folders/1XJhSn6OJ7Au_VqZfCohSRvOfHpR9okaK?usp=sharing), and put the models on the folder `./weights`.
+
+## Inference
+- After downloading the pretrained models and preparing the datasets, you could use the following command to test the best results on the public/private leaderboard.
+``` bash
+python3 public.py --conf-thres 0.05 --iou-thres 0.46 --img-size 1536 --weights ./weights/yolov5x/best.pt ./weights/yolov5l/best.pt ./weights/yolov5m/best.pt ./weights/yolov5s/best.pt  ./weights/yolov5n/best.pt  --TTA
+```
+- The result ".json" file will automatically save in the current path.
+
+## Training
+- You should download the COCO pretrained models on the offical[1]. And put all the models on the folder `./pretrained`. After that, please use the following script to train all the models used in this competition.
+``` bash
+bash train.sh
+```
+
+# Reference
+[1] https://github.com/ultralytics/yolov5
