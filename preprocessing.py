@@ -15,13 +15,12 @@ random.seed(seed)
 os.environ['PYTHONHASHSEED'] = str(seed)
 if __name__ == '__main__':
     save_dir = '../../../dataset/yolo_0.95/lung_cancer'
+    data_path = '../../../dataset'
     train_size_ratio = 0.95
     os.makedirs(os.path.join(save_dir, 'images/train'), exist_ok=True)
     os.makedirs(os.path.join(save_dir, 'labels/train'), exist_ok=True)
     os.makedirs(os.path.join(save_dir, 'images/valid'), exist_ok=True)
     os.makedirs(os.path.join(save_dir, 'labels/valid'), exist_ok=True)
-
-    data_path = '../../../dataset'
 
     data_list = os.listdir(os.path.join(data_path, 'Train_Annotations_OBJ'))                                                                                                   
 
