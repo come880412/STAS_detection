@@ -211,7 +211,7 @@ def run(
         # Print time (inference-only)
         LOGGER.info(f'{s}Done. ({t3 - t2:.3f}s)')
 
-    with open("public_yolov5m6.json", "w") as outfile:
+    with open("public_best.json", "w") as outfile:
         json.dump(public_dict, outfile)
     # Print results
     t = tuple(x / seen * 1E3 for x in dt)  # speeds per image
