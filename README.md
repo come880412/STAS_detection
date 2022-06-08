@@ -47,6 +47,7 @@ python3 public.py --conf-thres 0.05 --iou-thres 0.46 --img-size 1536 --weights .
 ``` bash
 bash train.sh
 ```
+- If you have any questions, please feel free to email me! come880412@gmail.com
 
 ## Training result
 Here, we show that our training results.
