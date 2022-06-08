@@ -9,7 +9,7 @@ cd STAS_detection
 ```
 
 ## Computer Equipment
-- System: Windows10、Ubuntu20.04
+- System: Ubuntu20.04
 - Pytorch version: Pytorch 1.7 or higher
 - Python version: Python 3.7
 - Testing:  
