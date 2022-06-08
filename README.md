@@ -22,6 +22,9 @@ CPU: Intel(R) Xeon(R) Gold 6154 CPU @ 3.00GHz \
 RAM: 180 GB \
 GPU: Tesla V100 32 GB * 4
 
+## Packages
+Please read the "requirement.txt" for the details.
+
 ## Download & preprocess dataset
 - You should prepare the dataset from [here](https://tbrain.trendmicro.com.tw/Competitions/Details/21), and put the dataset on the folder `../dataset`. After doing so, please use the following command to do data preprocessing.
 ``` bash
