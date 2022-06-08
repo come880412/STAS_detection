@@ -8,6 +8,25 @@ git clone https://github.com/come880412/STAS_detection
 cd STAS_detection
 ```
 
+## Computer Equipment
+- System: Windows10、Ubuntu20.04
+- Pytorch version: Pytorch 1.7 or higher
+- Python version: Python 3.7
+- Testing:  
+CPU: AMR Ryzen 7 4800H with Radeon Graphics
+RAM: 32GB  
+GPU: NVIDIA GeForce RTX 1660Ti 6GB  
+
+- Training:  
+CPU: Intel(R) Xeon(R) Gold 5218 CPU @ 2.30GHz  
+RAM: 256GB  
+GPU: NVIDIA GeForce RTX 3090 24GB * 1
+
+(TWCC server)
+CPU: Intel(R) Xeon(R) Gold 6154 CPU @ 3.00GHz
+RAM: 180 GB
+GPU: Tesla V100 32 GB * 4
+
 ## Download & preprocess dataset
 - You should prepare the dataset from [here](https://tbrain.trendmicro.com.tw/Competitions/Details/21), and put the dataset on the folder `../dataset`. After doing so, please use the following command to do data preprocessing.
 ``` bash
