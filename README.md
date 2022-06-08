@@ -17,14 +17,9 @@ CPU: AMR Ryzen 7 4800H with Radeon Graphics
 RAM: 32GB  
 GPU: NVIDIA GeForce RTX 1660Ti 6GB  
 
-- Training:  
-CPU: Intel(R) Xeon(R) Gold 5218 CPU @ 2.30GHz  
-RAM: 256GB  
-GPU: NVIDIA GeForce RTX 3090 24GB * 1
-
-(TWCC server)
-CPU: Intel(R) Xeon(R) Gold 6154 CPU @ 3.00GHz
-RAM: 180 GB
+- Training (TWCC):  
+CPU: Intel(R) Xeon(R) Gold 6154 CPU @ 3.00GHz \
+RAM: 180 GB \
 GPU: Tesla V100 32 GB * 4
 
 ## Download & preprocess dataset
