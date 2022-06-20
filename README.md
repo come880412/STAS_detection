@@ -1,5 +1,6 @@
 # STAS_detection
-Competition URL: https://tbrain.trendmicro.com.tw/Competitions/Details/21 (public 8th, private 19th)
+Competition URL: https://tbrain.trendmicro.com.tw/Competitions/Details/21 \
+Private Leaderboard: 19 / 243
 
 # Getting started
 - Clone this repo to your local
